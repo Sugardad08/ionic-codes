@@ -1,0 +1,4 @@
+ionic start _______ blank 
+angular
+cd ____
+ionic serve

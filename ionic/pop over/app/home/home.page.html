@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" background-color="white">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <div class="size">
+    <ion-button id="click-trigger" fill="clear" class="btn1" (click)="PlaySound2()"><img src="./assets/avatar1.png" /></ion-button>
+<ion-popover trigger="click-trigger" triggerAction="click">
+  <ng-template>
+    <ion-content class="ion-padding" id="font">Hi im lance ivan, I am 3rd year student im from silang cavite</ion-content>
+  </ng-template>
+</ion-popover>
+
+</div>
+
+  <div class="size">
+  <ion-button id="click-trigger2" fill="clear" class="btn2" (click)="PlaySound()"><img src="./assets/avatar2.png" /></ion-button>
+<ion-popover trigger="click-trigger2" triggerAction="click">
+<ng-template>
+  <ion-content class="ion-padding" id="font">Hello World!, my name is Billy Nitura,I'am 4 year BSIT student in FEU silang </ion-content>
+</ng-template>
+</ion-popover>
+  </div>
+</div>
+<br>
+<button (click)="PlaySound()">Play Sound</button>
+</ion-content>
